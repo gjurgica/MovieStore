@@ -1,0 +1,41 @@
+﻿@model List<MovieModel>
+@{
+    ViewData["Title"] = "Reviews";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+
+
+@foreach (var movie in Model)
+{
+    @if (movie.Rank > 9)
+    {
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                @movie.Title
+                <span class="badge badge-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> @movie.Rank</span>
+            </li>
+        </ul>
+    }
+    @if (movie.Rank > 6 && movie.Rank <= 9)
+    {
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                @movie.Title
+                <span class="badge badge-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i> @movie.Rank</span>
+            </li>
+        </ul>
+    }
+    @if (movie.Rank <= 6)
+    {
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                @movie.Title
+                <span class="badge badge-warning"><i class="fas fa-star"></i> @movie.Rank</span>
+            </li>
+        </ul>
+    }
+}
+

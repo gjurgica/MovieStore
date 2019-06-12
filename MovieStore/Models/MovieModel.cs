@@ -12,15 +12,17 @@ namespace MovieStore.Models
         public string Title { get; set; }
         public string Director { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
+        public bool CommingSoon { get; set; }
+        public double Rank { get; set; }
         public MovieModel() { }
-        public MovieModel(int id,string title,string director,string description,decimal price)
+        public MovieModel(int id,string title,string director,string description,double rank, bool commingSoon = false)
         {
             Id = id;
             Title = title;
             Director = director;
             Description = description;
-            Price = price;
+            Rank = rank;
+            CommingSoon = commingSoon;
         }
     }
 }

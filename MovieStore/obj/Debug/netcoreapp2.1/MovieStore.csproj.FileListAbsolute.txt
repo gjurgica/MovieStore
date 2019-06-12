@@ -14,9 +14,7 @@ C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netco
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.TagHelpers.input.cache
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.TagHelpers.output.cache
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.RazorCoreGenerate.cache
-C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Add.g.cshtml.cs
-C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Delete.g.cshtml.cs
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
@@ -36,3 +34,5 @@ C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netco
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.dll
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.pdb
 C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\MovieStore.csproj.CopyComplete
+C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Upcoming.g.cshtml.cs
+C:\Users\Asus\Desktop\practicingCoding\MVC\MovieStore\MovieStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reviews.g.cshtml.cs

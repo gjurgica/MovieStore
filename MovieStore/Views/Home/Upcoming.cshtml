@@ -1,0 +1,26 @@
+﻿@model List<MovieModel>
+@{
+    ViewData["Title"] = "Movies Coming Soon";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+@foreach (var movie in Model)
+{
+    @if (movie.CommingSoon == true)
+    {
+        <div class="card mb-3 comming-soon" style="max-width: 540px;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @movie.Title
+                        </h5>
+                        <p class="card-text">@movie.Description</p>
+                        <p class="card-text"><small class="text-muted">Last updated @DateTime.Now</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
