@@ -4,7 +4,7 @@
 }
 
 <h2>Edit</h2>
-@using (@Html.BeginRouteForm("SaveRoute", new { action = "UpdateMovie" }, FormMethod.Post))
+@using (@Html.BeginForm("SaveChanges","Home", FormMethod.Post))
 {
     @Html.ValidationSummary()
     @Html.HiddenFor(m => m.Id)
