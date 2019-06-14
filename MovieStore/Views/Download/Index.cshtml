@@ -1,0 +1,15 @@
+﻿
+
+
+
+<h2>Download Poster</h2>
+
+
+<form method="post" action="/Download/Index" class="form-inline" enctype="multipart/form-data" >
+    <div class="form-group mx-sm-3 mb-2">
+        <input type="file" class="form-control" name="Photo"/>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+<br />
+<img src="@ViewData["fileLocation"]"/>

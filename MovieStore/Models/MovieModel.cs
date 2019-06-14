@@ -14,8 +14,9 @@ namespace MovieStore.Models
         public string Description { get; set; }
         public bool CommingSoon { get; set; }
         public double Rank { get; set; }
+        public string Url { get; set; }
         public MovieModel() { }
-        public MovieModel(int id,string title,string director,string description,double rank, bool commingSoon = false)
+        public MovieModel(int id,string title,string director,string description,double rank, string url, bool commingSoon = false)
         {
             Id = id;
             Title = title;
@@ -23,6 +24,7 @@ namespace MovieStore.Models
             Description = description;
             Rank = rank;
             CommingSoon = commingSoon;
+            Url = url;
         }
     }
 }

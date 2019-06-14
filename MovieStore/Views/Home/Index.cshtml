@@ -33,22 +33,26 @@
     <br />
     <button type="button" class="btn btn-warning">@Html.ActionLink("Add New Movie", "Add")</button>
 </div>
-@foreach(var movie  in Model){
-<div class="card mb-3" style="max-width: 540px;">
-    <div class="row no-gutters">
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">
-                    @movie.Title
-                </h5>
-                <p class="card-text">@movie.Description</p>
-                | @Html.ActionLink("edit", "Edit", new { id = movie.Id })
-                | @Html.ActionLink("delete", "Delete", new { id = movie.Id })
-                <p class="card-text"><small class="text-muted">Last updated @DateTime.Now</small></p>
+@foreach (var movie in Model)
+{
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="@movie.Url" class="card-img" alt="@movie.Title">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        @movie.Title
+                    </h5>
+                    <p class="card-text">@movie.Description</p>
+                    | @Html.ActionLink("edit", "Edit", new { id = movie.Id })
+                    | @Html.ActionLink("delete", "Delete", new { id = movie.Id })
+                    <p class="card-text"><small class="text-muted">Last updated @DateTime.Now</small></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 }
 
 
